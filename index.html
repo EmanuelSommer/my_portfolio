@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Emanuel Sommer</h1>
+            <h2>Mathematician & Data Scientist</h2>
+            <!--<a href="#" class="btn-rounded-white">Download Resume</a>-->
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Hi I am Emanuel. I am a very curious and knowledge thirsty problem solver. Currently I do my M.Sc. in Mathematics in Data Science at the TUM that allows me to dive deep into two of the topics I am most passionate about: Machine Learning and Statistics. Besides that I am a huge fan of the programming language R. Thus whenever I find the time I try to learn new techniques, packages and best practices. It is just great to apply the theoretical knowledge to real world problems. There my strong theoretical basis turns out to be very beneficial during data wrangling and modeling. As I highly value the professional and appealing communication of my results I really appreciate and frequently use the two frameworks Rmarkdown (Reproducible reporting) and shiny (Web applications) within R. When I am not sitting in front of my laptop or notepad I love to go hiking, skiing, weight training and traveling the world with my girlfriend.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="September 2019 - December 2019">
+                <h3>KPMG</h3>
+                <h4>Internship</h4>
+                <p>
+                    Data Scientist role on the long-term project at an investment bank.
+                </p>
+                <p>
+                    Planning and Implementation of a custom automated Data Quality testing application for credit risk data in R, Rmarkdown and SQL. The generation of the reports was automated and the whole Data Quality testing cycle was reduced from 3 weeks (manually) to 4 hours (including review). The designed tests included univariate and multivariate outlier detection as well as other statistical methods.
+                </p>
+                <p>
+                    Department: Financial Services Core/ Risk Banking
+                </p>
+                
+            </div>
+
+            <div data-date="April 2019 - August 2019">
+                <h3>Technical University of Munich (TUM)</h3>
+                <h4>Teaching Assistant</h4>
+                <p>
+                    Tutor for the lecture 'Statistics for Business Administration' at the TUM School of Management
+                </p>
+            </div>
+
+            <div data-date="Juli 2013 - August 2013">
+                <h3>Munich RE</h3>
+                <h4>Internship</h4>
+                <p>
+                    Got a first taste of the 
+reinsurance business and of the company.
+                </p>
+                <p>
+                    Department: EU/LA Property
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Technical University of Munich (TUM)</h3>
+            <span class="education-date">April 2020 - Today</span>
+            <h4>Master of Science in Mathematics in Data Science</h4>
+            <!--<p>
+                Passed with merit
+            </p>-->
+            <ul>
+                <li>
+                    Focus on Machine Learning and statistics
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Technical University of Munich (TUM)</h3>
+            <span class="education-date">Oct 2016 - March 2020</span>
+            <h4>Bachelor of Science in Mathematics</h4>
+            <!--<p>
+                Passed with merit
+            </p>-->
+            <ul>
+                <li>
+                    Thesis on 'Sports Data Analytics: Regression and tree based models'
+                </li>
+                <li>
+                    Focus on statistics, probabilty and finance
+                </li>
+                <li>
+                    Minor in economics
+                </li>
+                <li>
+                    Passed with merit
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project_RSq.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Finalist at the Rohde & Schwarz Engineering Competition 2019 - 5G Broadcast</h3>
+                        <p>
+                            Analysis of a dataset containing broadcast data provided by R&S. Predict future behavior of the data in order to set up a plan to optimize both user experiance and revenue simultaniously. An ensemble learner highly dependent on tree based models was used, followed by a custom greedy optimisation. The Exploratory Data Analysis (tidyverse), the modeling (caret) and the optimisation was implemented in R. During the finals in Munich with the best teams of the online competition worldwide the solution was presented in front of and evaluated by an expert jury. Finally we achieved one of the top ten final scores.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project_vg.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Four wins implementation (shiny)</h3>
+                        <p>
+                            The goal of this Shiny application was actually to try out the Minimax algorithm. The result is a not too smart and not too dumb AI opponent that one can play at four wins.
+                        </p>
+                        <p>
+                            Main packages used: shiny and packages of the tidyverse
+                        </p>
+                        <a href="https://github.com/EmanuelSommer/vier_gewinnt_pretty">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project_dqtest.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>R Package containing tools for Data Quality testing + Shinydashboard</h3>
+                        <p>
+                            Following my internship at KPMG and with the gained experiance in Data Quality testing, I wanted to create my first shinydashboard and as the topic I naturally choose DQ testing. So I created an R package that contains the most important tools for the app. These tools include an implementation of the Local Outlier Factor Algorithm for multivariate outlier detection as well as many tools for univariate tests.
+                        </p>
+                        <p>
+                            Main packages used: e1071, cluster, dbscan, shiny, shinydashboard, shinytime, devtools, testthat and packages of the tidyverse
+                        </p>
+                        <a href="https://github.com/EmanuelSommer/dqtesting">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project_PV.jpeg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>R Package for visualisation of P-values</h3>
+                        <p>
+                            The idea for this small project was born when many of the students of the course 'Statistics of Business Administration', where I was a tutor, had problems understanding the concept of P-values. Thus I created an R package that visualizes the P-values in the common setting of hypothesis tests for the 4 most common distributions. The usage, as it is meant for beginners in the field of statitics, is very straight forward.
+                        </p>
+                        <p>
+                            Main Packages used: ggplot2, devtools
+                        </p>
+                        <a href="https://github.com/EmanuelSommer/PvalVis">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Top Skill: Excellent command of R</h2>
+        <ul>
+            <li>Statistical Computing, Modeling and Machine Learning (tidyverse,caret,fitdistr,...)</li>
+            <li>Package development (devtools,testthat,...)</li>
+            <li>Shiny applications (shiny,shinydashboards,...)</li>
+            <li>Data visualisation (ggplot2,plotly,...)</li>
+            <li>Web scraping (rvest,robotstxt,...)</li>
+        </ul>
+        </br>
+        <h2 class="heading">Other Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>MS Office</li>
+            <li>Java</li>
+            <li>Latex</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/emanuel_sommer@gmx.de">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 Emanuel Sommer
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/EmanuelSommer" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <!--<li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
