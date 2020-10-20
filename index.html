@@ -73,7 +73,7 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Hi I am Emanuel. I am a very curious and knowledge-thirsty problem solver. Currently I am doing my M.Sc. in Mathematics in Data Science at the TUM which allows me to dive deep into two of the topics I am most passionate about: Machine Learning and Statistics. Besides that I am a huge fan of the programming language R. Thus, whenever I find the time, I try to learn new techniques, packages and best practices. It is just great to apply the theoretical knowledge to real world problems. Thereby my strong theoretical basis turns out to be very beneficial during data wrangling and modeling. As I highly value the professional and appealing communication of my results I really appreciate and frequently use the two frameworks Rmarkdown (Reproducible reporting) and shiny (Web applications) within R. When I am not sitting in front of my laptop or notepad I love to go hiking, skiing, strength training and traveling the world with my lovely girlfriend.
+                        Hi I am Emanuel. I am a very curious and driven problem solver. Currently I am doing my M.Sc. in Mathematics in Data Science at the TUM which allows me to dive deep into two of the topics I am most passionate about: Machine Learning and Statistics. Besides that I am a huge fan of the programming language R. Thus, whenever I find the time, I try to learn new techniques, packages and best practices. It is just great to apply the theoretical knowledge to real world problems. Thereby my strong theoretical basis turns out to be very beneficial during data wrangling and modeling. As I highly value the professional and appealing communication of my results I really appreciate and frequently use the two frameworks Rmarkdown (Reproducible reporting) and shiny (Web applications) within R. When I am not sitting in front of my laptop or notepad I love to go hiking, skiing, strength training and traveling the world with my amazing girlfriend.
                 </div>
             </div>
         </div>
@@ -167,14 +167,18 @@ reinsurance business and of the company.
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project_RSq.jpg" />
+                        <img src="images/project_yesno.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Finalist at the Rohde & Schwarz Engineering Competition 2019 - 5G Broadcast</h3>
+                        <h3>Shiny app to predict handwritten &#9989 and &#10060 boxes</h3>
                         <p>
-                            Analysis of a dataset containing broadcast data provided by R&S. Predict future behavior of the data in order to set up a plan to optimize both user experience and revenue simultaneously. An ensemble learner highly dependent on tree based models was used, followed by a custom greedy optimisation. The Exploratory Data Analysis (tidyverse), the modeling (caret) and the optimization was implemented in R. During the finals in Munich with the best teams of the online competition worldwide. The solution was presented in front of and evaluated by an expert jury. Finally we achieved one of the top ten final scores.
+                            The app is written using the golem framework for production-grade and robust shiny apps. The prediction model is a convolutional deep neural network (CNN) implemented via the Keras API of Tensorflow. The app allows to explore and amend the custom database that was created for the Machine Learning task. Moreover it contains visualisations of the model architecture and valuation metrics. Above all it enables the user to challange the model with handwritten boxes.
                         </p>
+                        <p>
+                            Main R packages used: tensorflow, keras, golem, shiny, shinymodules, fullPage, waiter, googlesheets4 and packages of the tidyverse
+                        </p>
+                        <a href="https://github.com/EmanuelSommer/YesNoDetect">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -182,18 +186,17 @@ reinsurance business and of the company.
                 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project_vg.png" />
+                        <img src="images/project_RSq.jpg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Connect Four implementation (Shiny)</h3>
+                        <h3>Finalist at the Rohde & Schwarz Engineering Competition 2019 - 5G Broadcast</h3>
                         <p>
-                            The goal of this Shiny application was actually to try out the Minimax Algorithm. The result is a not too smart and not too dumb AI opponent that one can play at Connect Four.
+                            Analysis of a dataset containing broadcast data provided by R&S. Predict future behavior of the data in order to set up a plan to optimize both user experience and revenue simultaneously. An ensemble learner highly dependent on tree based models was used, followed by a custom greedy optimisation. The Exploratory Data Analysis (tidyverse), the modeling (caret) and the optimization was implemented in R. 
                         </p>
                         <p>
-                            Main packages used: shiny and packages of the tidyverse
+                            During the finals in Munich with the best teams of the online competition worldwide the solution was presented in front of and evaluated by an expert jury. Finally we achieved one of the top ten final scores.
                         </p>
-                        <a href="https://github.com/EmanuelSommer/vier_gewinnt_pretty">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -210,7 +213,7 @@ reinsurance business and of the company.
                             Following my internship at KPMG and with the gained experience in data quality testing, I wanted to create my first shinydashboard and as the topic I naturally chose DQ testing. So I created an R package that contains the most important tools for the app. These tools include an implementation of the Local Outlier Factor Algorithm for multivariate outlier detection as well as many tools for univariate tests.
                         </p>
                         <p>
-                            Main packages used: e1071, cluster, dbscan, shiny, shinydashboard, shinytime, devtools, testthat and packages of the tidyverse
+                            Main R packages used: e1071, cluster, dbscan, shiny, shinydashboard, shinytime, devtools, testthat and packages of the tidyverse
                         </p>
                         <a href="https://github.com/EmanuelSommer/dqtesting">View Project</a>
                     </div>
@@ -229,9 +232,28 @@ reinsurance business and of the company.
                             The idea for this small project was born when many of the students of the course 'Statistics of Business Administration', where I was a tutor, had problems understanding the concept of P-values. Thus I created an R package that visualizes the P-values in the common setting of hypothesis tests for the 4 most common distributions. The usage, as it is meant for beginners in the field of statistics, is very straight forward.
                         </p>
                         <p>
-                            Main packages used: ggplot2, devtools
+                            Main R packages used: ggplot2, devtools
                         </p>
                         <a href="https://github.com/EmanuelSommer/PvalVis">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project_vg.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Connect Four implementation (Shiny)</h3>
+                        <p>
+                            The goal of this Shiny application was actually to try out the Minimax Algorithm. The result is a not too smart and not too dumb AI opponent that one can play at Connect Four.
+                        </p>
+                        <p>
+                            Main R packages used: shiny and packages of the tidyverse
+                        </p>
+                        <a href="https://github.com/EmanuelSommer/vier_gewinnt_pretty">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -247,18 +269,17 @@ reinsurance business and of the company.
         <ul>
             <li>Statistical Computing, Modeling and Machine Learning (tidyverse, caret, fitdistr, ...)</li>
             <li>Package Development (devtools, testthat, ...)</li>
-            <li>Shiny Applications (shiny, shinydashboards, ...)</li>
+            <li>Shiny Applications (golem, shinydashboards, ...)</li>
             <li>Data Visualisation (ggplot2, plotly, ...)</li>
-            <li>Web Scraping (rvest, robotstxt, ...)</li>
+            <!--<li>Web Scraping (rvest, robotstxt, ...)</li>-->
         </ul>
         </br>
         <h2 class="heading">Other Skills</h2>
         <ul>
             <li>Python</li>
             <li>SQL</li>
+            <li>Latex</li>
             <li>MS Office</li>
-            <li>Java</li>
-            <li>LaTeX</li>
         </ul>
     </div>
     <!-- End #skills -->
